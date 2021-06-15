@@ -1,0 +1,52 @@
+{
+  "tickers": [
+    {
+      "tickername": "BTC/USDT",
+      "isstock": false,
+      "id": 1
+    },
+    {
+      "tickername": "SC/BTC",
+      "isstock": false,
+      "id": 3
+    },
+    {
+      "tickername": "ETH/USDT",
+      "isstock": false,
+      "id": 4
+    },
+    {
+      "tickername": "ETH/BTC",
+      "isstock": false,
+      "id": 5
+    },
+    {
+      "tickername": "POA/BTC",
+      "isstock": false,
+      "id": 6
+    },
+    {
+      "tickername": "RVN/BTC",
+      "isstock": false,
+      "id": 7
+    },
+    {
+      "tickername": "GBP/USDT",
+      "isstock": true,
+      "id": 8
+    }
+  ]
+}
+
+{
+  "tickers": [
+    {
+      "tickername": "BTC/USDT",
+      "id": 1
+    },
+    {
+      "tickername": "ETH/BTC",
+      "id": 5
+    }
+  ]
+}

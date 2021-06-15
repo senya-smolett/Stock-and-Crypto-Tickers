@@ -1,13 +1,85 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.delete-btn {
+  color: red;
+  cursor: pointer;
+}
+/* Ticker Box Start*/
+.ticker-box {
+  padding-left: 1rem;
+  display: inline-table;
+  width: 175px;
+  height: auto;
+}
+.ticker-name-n-delete {
+  display: flex;
+}
+.delete-btn {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.percentchange {
+  display: flex;
+}
+/* Ticker Box End*/
+
+/* Title Area Start*/
+.title-container {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+  padding-top: 1rem;
+  margin-left: 0;
+  margin-right: 0;
+  max-width: none;
+}
+
+.ticker-search {
+  display: inline-flex;
+}
+
+.ticker-search-label {
+  padding-right: 1rem;
+}
+
+.ticker-search-input {
+  margin-right: 1rem;
+}
+
+.clock {
+  float: right;
+}
+
+div.title-container.container
+  > div
+  > div:nth-child(1)
+  > form
+  > div:nth-child(1)
+  > div
+  > div.rbt-aux
+  > button
+  > span:nth-child(1) {
+  position: absolute;
+  right: 8px;
+  top: 4px;
+}
+/* Title Area End */
+
+/* Import react-grid-layout */
+@import "/node_modules/react-grid-layout/css/styles.css";
+@import "/node_modules/react-resizable/css/styles.css";
+
+/* Import bootstrap */
+@import "~bootstrap/dist/css/bootstrap.css";

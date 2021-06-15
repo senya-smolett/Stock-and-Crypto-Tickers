@@ -1,0 +1,44 @@
+{
+  "tickers": [
+    {
+      "tickername": "BTC/USDT",
+      "id": 1,
+      "position": [
+        0,
+        0
+      ]
+    },
+    {
+      "tickername": "SC/BTC",
+      "id": 3,
+      "position": [
+        2,
+        0
+      ]
+    },
+    {
+      "tickername": "ETH/BTC",
+      "id": 5,
+      "position": [
+        4,
+        0
+      ]
+    },
+    {
+      "tickername": "POA/BTC",
+      "id": 6,
+      "position": [
+        6,
+        0
+      ]
+    },
+    {
+      "tickername": "RVN/BTC",
+      "id": 7,
+      "position": [
+        8,
+        0
+      ]
+    }
+  ]
+}
